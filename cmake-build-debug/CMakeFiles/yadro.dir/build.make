@@ -82,62 +82,62 @@ CMakeFiles/yadro.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/main.cpp.s"
 	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\main.cpp -o CMakeFiles\yadro.dir\main.cpp.s
 
-CMakeFiles/yadro.dir/tape.cpp.obj: CMakeFiles/yadro.dir/flags.make
-CMakeFiles/yadro.dir/tape.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/tape.cpp
-CMakeFiles/yadro.dir/tape.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yadro.dir/tape.cpp.obj"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/tape.cpp.obj -MF CMakeFiles\yadro.dir\tape.cpp.obj.d -o CMakeFiles\yadro.dir\tape.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\tape.cpp
+CMakeFiles/yadro.dir/src/tape.cpp.obj: CMakeFiles/yadro.dir/flags.make
+CMakeFiles/yadro.dir/src/tape.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/src/tape.cpp
+CMakeFiles/yadro.dir/src/tape.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/yadro.dir/src/tape.cpp.obj"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/src/tape.cpp.obj -MF CMakeFiles\yadro.dir\src\tape.cpp.obj.d -o CMakeFiles\yadro.dir\src\tape.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\src\tape.cpp
 
-CMakeFiles/yadro.dir/tape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/tape.cpp.i"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\tape.cpp > CMakeFiles\yadro.dir\tape.cpp.i
+CMakeFiles/yadro.dir/src/tape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/src/tape.cpp.i"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\src\tape.cpp > CMakeFiles\yadro.dir\src\tape.cpp.i
 
-CMakeFiles/yadro.dir/tape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/tape.cpp.s"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\tape.cpp -o CMakeFiles\yadro.dir\tape.cpp.s
+CMakeFiles/yadro.dir/src/tape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/src/tape.cpp.s"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\src\tape.cpp -o CMakeFiles\yadro.dir\src\tape.cpp.s
 
-CMakeFiles/yadro.dir/sort.cpp.obj: CMakeFiles/yadro.dir/flags.make
-CMakeFiles/yadro.dir/sort.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/sort.cpp
-CMakeFiles/yadro.dir/sort.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yadro.dir/sort.cpp.obj"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/sort.cpp.obj -MF CMakeFiles\yadro.dir\sort.cpp.obj.d -o CMakeFiles\yadro.dir\sort.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\sort.cpp
+CMakeFiles/yadro.dir/src/sort.cpp.obj: CMakeFiles/yadro.dir/flags.make
+CMakeFiles/yadro.dir/src/sort.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/src/sort.cpp
+CMakeFiles/yadro.dir/src/sort.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/yadro.dir/src/sort.cpp.obj"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/src/sort.cpp.obj -MF CMakeFiles\yadro.dir\src\sort.cpp.obj.d -o CMakeFiles\yadro.dir\src\sort.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\src\sort.cpp
 
-CMakeFiles/yadro.dir/sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/sort.cpp.i"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\sort.cpp > CMakeFiles\yadro.dir\sort.cpp.i
+CMakeFiles/yadro.dir/src/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/src/sort.cpp.i"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\src\sort.cpp > CMakeFiles\yadro.dir\src\sort.cpp.i
 
-CMakeFiles/yadro.dir/sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/sort.cpp.s"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\sort.cpp -o CMakeFiles\yadro.dir\sort.cpp.s
+CMakeFiles/yadro.dir/src/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/src/sort.cpp.s"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\src\sort.cpp -o CMakeFiles\yadro.dir\src\sort.cpp.s
 
-CMakeFiles/yadro.dir/ITape.cpp.obj: CMakeFiles/yadro.dir/flags.make
-CMakeFiles/yadro.dir/ITape.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/ITape.cpp
-CMakeFiles/yadro.dir/ITape.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yadro.dir/ITape.cpp.obj"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/ITape.cpp.obj -MF CMakeFiles\yadro.dir\ITape.cpp.obj.d -o CMakeFiles\yadro.dir\ITape.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\ITape.cpp
+CMakeFiles/yadro.dir/src/ITape.cpp.obj: CMakeFiles/yadro.dir/flags.make
+CMakeFiles/yadro.dir/src/ITape.cpp.obj: C:/Users/Lenovo/CLionProjects/yadro/src/ITape.cpp
+CMakeFiles/yadro.dir/src/ITape.cpp.obj: CMakeFiles/yadro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\yadro\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/yadro.dir/src/ITape.cpp.obj"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/yadro.dir/src/ITape.cpp.obj -MF CMakeFiles\yadro.dir\src\ITape.cpp.obj.d -o CMakeFiles\yadro.dir\src\ITape.cpp.obj -c C:\Users\Lenovo\CLionProjects\yadro\src\ITape.cpp
 
-CMakeFiles/yadro.dir/ITape.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/ITape.cpp.i"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\ITape.cpp > CMakeFiles\yadro.dir\ITape.cpp.i
+CMakeFiles/yadro.dir/src/ITape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/yadro.dir/src/ITape.cpp.i"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\yadro\src\ITape.cpp > CMakeFiles\yadro.dir\src\ITape.cpp.i
 
-CMakeFiles/yadro.dir/ITape.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/ITape.cpp.s"
-	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\ITape.cpp -o CMakeFiles\yadro.dir\ITape.cpp.s
+CMakeFiles/yadro.dir/src/ITape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/yadro.dir/src/ITape.cpp.s"
+	"D:\JetBrain\CLion 2022.3.1\bin\mingw\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\yadro\src\ITape.cpp -o CMakeFiles\yadro.dir\src\ITape.cpp.s
 
 # Object files for target yadro
 yadro_OBJECTS = \
 "CMakeFiles/yadro.dir/main.cpp.obj" \
-"CMakeFiles/yadro.dir/tape.cpp.obj" \
-"CMakeFiles/yadro.dir/sort.cpp.obj" \
-"CMakeFiles/yadro.dir/ITape.cpp.obj"
+"CMakeFiles/yadro.dir/src/tape.cpp.obj" \
+"CMakeFiles/yadro.dir/src/sort.cpp.obj" \
+"CMakeFiles/yadro.dir/src/ITape.cpp.obj"
 
 # External object files for target yadro
 yadro_EXTERNAL_OBJECTS =
 
 yadro.exe: CMakeFiles/yadro.dir/main.cpp.obj
-yadro.exe: CMakeFiles/yadro.dir/tape.cpp.obj
-yadro.exe: CMakeFiles/yadro.dir/sort.cpp.obj
-yadro.exe: CMakeFiles/yadro.dir/ITape.cpp.obj
+yadro.exe: CMakeFiles/yadro.dir/src/tape.cpp.obj
+yadro.exe: CMakeFiles/yadro.dir/src/sort.cpp.obj
+yadro.exe: CMakeFiles/yadro.dir/src/ITape.cpp.obj
 yadro.exe: CMakeFiles/yadro.dir/build.make
 yadro.exe: CMakeFiles/yadro.dir/linklibs.rsp
 yadro.exe: CMakeFiles/yadro.dir/objects1.rsp

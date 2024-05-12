@@ -82,25 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/ITape.cpp">
-			<Option target="yadro"/>
-		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/ITape.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/include/ITape.h">
 			<Option target="yadro"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/main.cpp">
 			<Option target="yadro"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/sort.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/src/ITape.cpp">
 			<Option target="yadro"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/sort.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/src/sort.cpp">
 			<Option target="yadro"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/tape.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/src/sort.h">
 			<Option target="yadro"/>
 		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/tape.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/src/tape.cpp">
+			<Option target="yadro"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/src/tape.h">
 			<Option target="yadro"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/yadro/CMakeLists.txt">

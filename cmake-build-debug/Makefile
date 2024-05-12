@@ -128,30 +128,6 @@ yadro/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/build
 .PHONY : yadro/fast
 
-ITape.obj: ITape.cpp.obj
-.PHONY : ITape.obj
-
-# target to build an object file
-ITape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/ITape.cpp.obj
-.PHONY : ITape.cpp.obj
-
-ITape.i: ITape.cpp.i
-.PHONY : ITape.i
-
-# target to preprocess a source file
-ITape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/ITape.cpp.i
-.PHONY : ITape.cpp.i
-
-ITape.s: ITape.cpp.s
-.PHONY : ITape.s
-
-# target to generate assembly for a file
-ITape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/ITape.cpp.s
-.PHONY : ITape.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -176,53 +152,77 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-sort.obj: sort.cpp.obj
-.PHONY : sort.obj
+src/ITape.obj: src/ITape.cpp.obj
+.PHONY : src/ITape.obj
 
 # target to build an object file
-sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/sort.cpp.obj
-.PHONY : sort.cpp.obj
+src/ITape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/ITape.cpp.obj
+.PHONY : src/ITape.cpp.obj
 
-sort.i: sort.cpp.i
-.PHONY : sort.i
+src/ITape.i: src/ITape.cpp.i
+.PHONY : src/ITape.i
 
 # target to preprocess a source file
-sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/sort.cpp.i
-.PHONY : sort.cpp.i
+src/ITape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/ITape.cpp.i
+.PHONY : src/ITape.cpp.i
 
-sort.s: sort.cpp.s
-.PHONY : sort.s
+src/ITape.s: src/ITape.cpp.s
+.PHONY : src/ITape.s
 
 # target to generate assembly for a file
-sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/sort.cpp.s
-.PHONY : sort.cpp.s
+src/ITape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/ITape.cpp.s
+.PHONY : src/ITape.cpp.s
 
-tape.obj: tape.cpp.obj
-.PHONY : tape.obj
+src/sort.obj: src/sort.cpp.obj
+.PHONY : src/sort.obj
 
 # target to build an object file
-tape.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/tape.cpp.obj
-.PHONY : tape.cpp.obj
+src/sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/sort.cpp.obj
+.PHONY : src/sort.cpp.obj
 
-tape.i: tape.cpp.i
-.PHONY : tape.i
+src/sort.i: src/sort.cpp.i
+.PHONY : src/sort.i
 
 # target to preprocess a source file
-tape.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/tape.cpp.i
-.PHONY : tape.cpp.i
+src/sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/sort.cpp.i
+.PHONY : src/sort.cpp.i
 
-tape.s: tape.cpp.s
-.PHONY : tape.s
+src/sort.s: src/sort.cpp.s
+.PHONY : src/sort.s
 
 # target to generate assembly for a file
-tape.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/tape.cpp.s
-.PHONY : tape.cpp.s
+src/sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/sort.cpp.s
+.PHONY : src/sort.cpp.s
+
+src/tape.obj: src/tape.cpp.obj
+.PHONY : src/tape.obj
+
+# target to build an object file
+src/tape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/tape.cpp.obj
+.PHONY : src/tape.cpp.obj
+
+src/tape.i: src/tape.cpp.i
+.PHONY : src/tape.i
+
+# target to preprocess a source file
+src/tape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/tape.cpp.i
+.PHONY : src/tape.cpp.i
+
+src/tape.s: src/tape.cpp.s
+.PHONY : src/tape.s
+
+# target to generate assembly for a file
+src/tape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\yadro.dir\build.make CMakeFiles/yadro.dir/src/tape.cpp.s
+.PHONY : src/tape.cpp.s
 
 # Help Target
 help:
@@ -233,18 +233,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... yadro
-	@echo ... ITape.obj
-	@echo ... ITape.i
-	@echo ... ITape.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sort.obj
-	@echo ... sort.i
-	@echo ... sort.s
-	@echo ... tape.obj
-	@echo ... tape.i
-	@echo ... tape.s
+	@echo ... src/ITape.obj
+	@echo ... src/ITape.i
+	@echo ... src/ITape.s
+	@echo ... src/sort.obj
+	@echo ... src/sort.i
+	@echo ... src/sort.s
+	@echo ... src/tape.obj
+	@echo ... src/tape.i
+	@echo ... src/tape.s
 .PHONY : help
 
 

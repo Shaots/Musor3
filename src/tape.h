@@ -2,7 +2,7 @@
 // Created by Lenovo on 11.05.2024.
 //
 #include <iostream>
-#include "ITape.h"
+#include "../include/ITape.h"
 
 #ifndef YADRO_TAPE_H
 #define YADRO_TAPE_H
