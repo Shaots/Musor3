@@ -1,7 +1,3 @@
-//
-// Created by Lenovo on 11.05.2024.
-//
-
 #ifndef YADRO_SORT_H
 #define YADRO_SORT_H
 

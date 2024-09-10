@@ -1,7 +1,3 @@
-//
-// Created by Lenovo on 12.05.2024.
-//
-
 #ifndef YADRO_ITAPE_H
 #define YADRO_ITAPE_H
 
