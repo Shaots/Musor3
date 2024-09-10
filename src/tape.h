@@ -16,8 +16,8 @@ private:
 // фабричный метод
 
 private:
-    int head = 0;
-    int length;
+    size_t head = 0;
+    size_t length;
     int* data; // length = N
 };
 
