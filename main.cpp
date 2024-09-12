@@ -1,7 +1,7 @@
 #include <iostream>
+#include <vector>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "This is John" << std::endl;
+    std::cout << "Hello world, my love" << std::endl;
     return 0;
 }
