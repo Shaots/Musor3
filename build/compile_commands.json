@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/shaots/myProjects/Musor3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/yadro.dir/main.cpp.o -c /home/shaots/myProjects/Musor3/main.cpp",
+  "file": "/home/shaots/myProjects/Musor3/main.cpp",
+  "output": "CMakeFiles/yadro.dir/main.cpp.o"
+},
+{
+  "directory": "/home/shaots/myProjects/Musor3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/yadro.dir/src/tape.cpp.o -c /home/shaots/myProjects/Musor3/src/tape.cpp",
+  "file": "/home/shaots/myProjects/Musor3/src/tape.cpp",
+  "output": "CMakeFiles/yadro.dir/src/tape.cpp.o"
+},
+{
+  "directory": "/home/shaots/myProjects/Musor3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/yadro.dir/src/sort.cpp.o -c /home/shaots/myProjects/Musor3/src/sort.cpp",
+  "file": "/home/shaots/myProjects/Musor3/src/sort.cpp",
+  "output": "CMakeFiles/yadro.dir/src/sort.cpp.o"
+},
+{
+  "directory": "/home/shaots/myProjects/Musor3/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/yadro.dir/src/ITape.cpp.o -c /home/shaots/myProjects/Musor3/src/ITape.cpp",
+  "file": "/home/shaots/myProjects/Musor3/src/ITape.cpp",
+  "output": "CMakeFiles/yadro.dir/src/ITape.cpp.o"
+}
+]
