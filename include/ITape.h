@@ -1,10 +1,6 @@
 #ifndef YADRO_ITAPE_H
 #define YADRO_ITAPE_H
 
-
-
-
-
 class ITape {
 public:
     virtual void read() = 0;
