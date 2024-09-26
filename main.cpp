@@ -2,6 +2,7 @@
 #include <vector>
 
 int i = 0;
+int j = 0;
 
 int main() {
     std::vector<int> vec;
